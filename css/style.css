@@ -1,0 +1,34 @@
+#slider {
+  width: 80%;
+  margin: 30px auto;
+  border: 3px solid red;
+  height: 70vh;
+  position: relative;
+}
+
+#slider img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+#slider .next,
+#slider .prev {
+  position: absolute;
+  top: 50%;
+  cursor: pointer;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  color: red;
+  font-size: 30px;
+}
+
+#slider .next {
+  right: 15px;
+}
+
+#slider .prev {
+  left: 15px;
+}
+/*# sourceMappingURL=style.css.map */
